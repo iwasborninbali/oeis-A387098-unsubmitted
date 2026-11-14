@@ -1,0 +1,49 @@
+A387098 independent row-mask / column-count DP
+Python: 3.13.5
+Range: k=0,1 at n=1..16; k=2 at n=7..11; k=3 at n=11..13; k=4 at n=15..16
+n= 1 k=0 T=1 expected=1 states=0 PASS
+n= 1 k=1 T=1 expected=1 states=2 PASS
+n= 2 k=0 T=1 expected=1 states=0 PASS
+n= 2 k=1 T=0 expected=0 states=3 PASS
+n= 3 k=0 T=1 expected=1 states=0 PASS
+n= 3 k=1 T=0 expected=0 states=6 PASS
+n= 4 k=0 T=1 expected=1 states=0 PASS
+n= 4 k=1 T=2 expected=2 states=17 PASS
+n= 5 k=0 T=1 expected=1 states=0 PASS
+n= 5 k=1 T=14 expected=14 states=52 PASS
+n= 6 k=0 T=1 expected=1 states=0 PASS
+n= 6 k=1 T=90 expected=90 states=147 PASS
+n= 7 k=0 T=1 expected=1 states=0 PASS
+n= 7 k=1 T=646 expected=646 states=382 PASS
+n= 7 k=2 T=0 expected=0 states=34 PASS
+n= 8 k=0 T=1 expected=1 states=0 PASS
+n= 8 k=1 T=5242 expected=5242 states=933 PASS
+n= 8 k=2 T=2 expected=2 states=276 PASS
+n= 9 k=0 T=1 expected=1 states=0 PASS
+n= 9 k=1 T=47622 expected=47622 states=2184 PASS
+n= 9 k=2 T=664 expected=664 states=4584 PASS
+n=10 k=0 T=1 expected=1 states=0 PASS
+n=10 k=1 T=479306 expected=479306 states=4967 PASS
+n=10 k=2 T=146510 expected=146510 states=55450 PASS
+n=11 k=0 T=1 expected=1 states=0 PASS
+n=11 k=1 T=5296790 expected=5296790 states=11074 PASS
+n=11 k=2 T=31197434 expected=31197434 states=439153 PASS
+n=11 k=3 T=0 expected=0 states=185 PASS
+n=12 k=0 T=1 expected=1 states=0 PASS
+n=12 k=1 T=63779034 expected=63779034 states=24345 PASS
+n=12 k=3 T=2 expected=2 states=4653 PASS
+n=13 k=0 T=1 expected=1 states=0 PASS
+n=13 k=1 T=831283558 expected=831283558 states=52972 PASS
+n=13 k=3 T=42732 expected=42732 states=535671 PASS
+n=14 k=0 T=1 expected=1 states=0 PASS
+n=14 k=1 T=11661506218 expected=11661506218 states=114363 PASS
+n=15 k=0 T=1 expected=1 states=0 PASS
+n=15 k=1 T=175203184374 expected=175203184374 states=245382 PASS
+n=15 k=4 T=0 expected=0 states=986 PASS
+n=16 k=0 T=1 expected=1 states=0 PASS
+n=16 k=1 T=2806878055610 expected=2806878055610 states=523853 PASS
+n=16 k=4 T=2 expected=2 states=78070 PASS
+Cases: 42
+All matched: True
+CPU seconds: 10.858
+Wall seconds: 10.865
